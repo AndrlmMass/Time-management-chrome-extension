@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path/to/font.woff2') format('woff2'),
+       url('path/to/font.woff') format('woff');
+}
+\
+
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #popup-container {
+    padding: 10px;
+    margin: 0;
+    width: 300px;
+    background-color: #f2f2f2;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+  }
+  
+  .bold-text {
+    font-weight: bold; /* Apply bold style to this class */
+  }
+  
+  /* Additional styles for your popup */
+  

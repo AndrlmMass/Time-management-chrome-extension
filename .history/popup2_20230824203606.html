@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Extension Popup</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div id="popup-container">
+    <h1>Popup Settings</h1>
+    <p>This page can be very addictive and a big time stealer. Please select a time limit and cooldown for this page to ensure productivity today.</p>
+    <label for="time-limit">Time Limit:</label>
+    <select id="time-limit" name="time-limit">
+      <option value="300">5 minutes</option>
+      <option value="600">10 minutes</option>
+      <option value="1800">30 minutes</option>
+      <option value="3600"></option>
+    </select>
+    <br>
+    <label for="cooldown">Cooldown Timer:</label>
+    <input type="number" id="cooldown" name="cooldown" min="1" value="5"> seconds
+  </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path/to/font.woff2') format('woff2'),
+       url('path/to/font.woff') format('woff');
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #popup-container {
+    padding: 10px;
+    margin: 0;
+    width: 300px;
+    background-color: #96d1db;
+    border: 2px solid #4c8eba;
+    border-radius: 10px;
+  }
+  
+  
+
+  

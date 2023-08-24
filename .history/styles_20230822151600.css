@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path/to/font.woff2') format('woff2'),
+       url('path/to/font.woff') format('woff');
+}
+
+body {
+  font-family: 'Calibri', sans-serif;
+}
+
+#popup-container {
+    padding: 10px; /* Add padding to create space between text and border */
+    margin: 0; /* Reset margin */
+    width: 300px; /* Set a fixed width for the popup container */
+    background-color: #FFFFFF; /* Background color */
+    border: 2px solid #3498db; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+  }

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path/to/font.woff2') format('woff2'),
+       url('path/to/font.woff') format('woff');
+}
+
+/* styles.css */
+
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+#popup-container {
+padding: 10px;
+width: 300px;
+background-color: #f2f2f2;
+border: 2px solid #3498db;
+border-radius: 10px;
+}
+
+.popup-title {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.main-text {
+/* Apply padding to create space between title and main text */
+padding-top: 10px;
+border-top: 2px solid #3498db; /* Add a top border to separate title from main text */
+}
+
+/* Additional styles for your popup */
+  
